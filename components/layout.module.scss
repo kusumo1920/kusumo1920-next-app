@@ -1,0 +1,13 @@
+.frontAppContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 127px 1fr;
+}
+
+.mainContainer {
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}

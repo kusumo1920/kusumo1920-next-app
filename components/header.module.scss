@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-top: 46px;
+}
+
+.headerLogo {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerNav {
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerSocialMedia {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItemsList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navItem {
+  display: inline-block;
+
+  a {
+    padding: 16px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-family: "Aileron";
+  }
+
+  a:hover {
+    border-bottom: 2px solid black;
+  }
+}
+
+.socialMediaItemsList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.socialMediaItem {
+  display: inline-block;
+  a {
+    padding: 8px;
+    text-decoration: none;
+  }
+}
