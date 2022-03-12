@@ -12,7 +12,12 @@ export default function Home({ allPostsData }) {
       <div className={styles.contentContainer}>
         <div className={styles.leftSection}>
           <div className={styles.additionalLinksSection}>
-            <a>download cv</a>
+            <a
+              className={styles.link}
+              href="https://drive.google.com/file/d/12n93_Mn_iDI7Uh15lbemDrRy5RN6IM7I/view?usp=sharing"
+            >
+              download cv
+            </a>
           </div>
           <div className={styles.profilePicContainer}>
             <Image
@@ -46,7 +51,6 @@ export default function Home({ allPostsData }) {
           <ul>
             <li>Pertamina: People Palm, SCM, and Well Pro web apps.</li>
             <li>Company email setup using 3rd party services.</li>
-            <li>Setup transactional email.</li>
             <li>Backlink SEO.</li>
             <li>Domain & hosting setup.</li>
           </ul>

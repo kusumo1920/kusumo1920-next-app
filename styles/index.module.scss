@@ -14,6 +14,11 @@
   gap: 50px;
 }
 
+.link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .additionalLinksSection {
   display: flex;
   flex-direction: row;

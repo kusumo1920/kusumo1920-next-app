@@ -1,0 +1,35 @@
+.contentContainer {
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subIntroduction {
+  margin-top: 20px;
+}
+
+.subIntroduction * {
+  margin: 0;
+}
+
+.nameImage {
+  display: inline-block;
+}
+
+.content {
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content > * + * {
+  margin-top: 30px;
+}

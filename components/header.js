@@ -1,7 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./header.module.scss";
-import { FaTwitter, FaFacebookF, FaTelegramPlane } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaFacebookF,
+  FaTelegramPlane,
+  FaGithub,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 export default function Header({ navItems }) {
   const navItemComponents = navItems.map((navItem) => {
@@ -42,13 +48,23 @@ export default function Header({ navItems }) {
             </a>
           </li>
           <li className={styles.socialMediaItem}>
-            <a>
+            <a href="https://web.facebook.com/kusumo1920/">
               <FaFacebookF size="1em" color="black" />
             </a>
           </li>
           <li className={styles.socialMediaItem}>
-            <a>
+            <a href="https://t.me/kusumo1920">
               <FaTelegramPlane size="1em" color="black" />
+            </a>
+          </li>
+          <li className={styles.socialMediaItem}>
+            <a href="https://wa.me/6281334512439">
+              <FaWhatsapp size="1em" color="black" />
+            </a>
+          </li>
+          <li className={styles.socialMediaItem}>
+            <a href="https://github.com/kusumo1920">
+              <FaGithub size="1em" color="black" />
             </a>
           </li>
         </ul>
