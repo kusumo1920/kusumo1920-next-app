@@ -37,12 +37,12 @@ export default function AboutMe() {
             In my free time, besides doing freelance and spend with family, I
             also always try to re-update and getting new IT knowledge. Whether
             its new concepts or open source tools, they always make me excited
-            (It's awesome right, we're lucky to live in the era of growing open
-            source).
+            (It&apos;s awesome right, we&apos;re lucky to live in the era of
+            growing open source).
           </p>
           <p>
-            I think that's all I can share about me, interested in other that
-            maybe I miss something? Then please contact me via the top
+            I think that&apos;s all I can share about me, interested in other
+            that maybe I miss something? Then please contact me via the top
             navigation link above.
           </p>
         </div>
