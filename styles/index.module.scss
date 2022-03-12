@@ -1,0 +1,56 @@
+.contentContainer {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr;
+  height: 100%;
+}
+
+.leftSection {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  height: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+.link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.additionalLinksSection {
+  display: flex;
+  flex-direction: row;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  padding-top: 50px;
+  width: 60px;
+}
+
+.profilePicContainer {
+  position: relative;
+  width: 400px;
+}
+
+.rightSection {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  height: 100%;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-family: "Aileron";
+}
+
+.bottomContainer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  z-index: -1;
+}
