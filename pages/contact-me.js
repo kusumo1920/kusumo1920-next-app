@@ -19,7 +19,7 @@ export default function ContactMe() {
         ></iframe>
         <div>
           <p>
-            Note: if contact form above didn't load, please email me to{" "}
+            Note: if contact form above didn&apos;t load, please email me to{" "}
             <strong>kesit@kusumo1920.com</strong>
           </p>
         </div>

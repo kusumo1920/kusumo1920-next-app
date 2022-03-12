@@ -43,7 +43,7 @@ export default function Home({ allPostsData }) {
           </p>
           <h4>- Used to work in agile environment</h4>
           <p>
-            Most of projects that I've been developed were using technique
+            Most of projects that I&apos;ve been developed were using technique
             called SCRUM. This allows fast software development and delivery to
             client.
           </p>
